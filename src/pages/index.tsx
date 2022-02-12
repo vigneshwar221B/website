@@ -1,9 +1,12 @@
-export default function Home() {
+import MainLayout from "@layouts/index";
+import LandingPage from "@components/landing-page/index";
+
+const Home = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello from Developers India
-      </h1>
-    </div>
+    <MainLayout>
+      <LandingPage />
+    </MainLayout>
   );
-}
+};
+
+export default Home;

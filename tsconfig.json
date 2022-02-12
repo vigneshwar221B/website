@@ -29,7 +29,9 @@
     "baseUrl": ".",
     "paths": {
       "@static/*": ["public/*"],
-      "@styles/*": ["src/styles/*"]
+      "@styles/*": ["src/styles/*"],
+      "@layouts/*": ["layouts/*"],
+      "@components/*": ["components/*"]
     },
     "resolveJsonModule": true,
     "isolatedModules": true
